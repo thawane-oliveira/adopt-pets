@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+/* background-color: #ce796b; */
+
+
+.header-container {
+  align-items: center;
+  background-image: url('./header-img.jpg');
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.page-title {
+  color: #ecc8af;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.about-button, .donation-button, .share-button, .login-button {
+  background-color: #ecc8af;
+  border-radius: 6%;
+  border-style: none;
+  box-shadow: 2px 2px 2px black;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+.about-button:hover, .donation-button:hover, .share-button:hover, .login-button:hover {
+  background-color: #d2b29b;
+}

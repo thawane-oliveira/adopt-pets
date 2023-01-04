@@ -1,0 +1,25 @@
+.dog-container {
+  align-content: space-around;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 200vh;
+  justify-items: center;
+}
+
+.card-container {
+  border: 10px solid #ecc8af;
+  border-bottom: 80px solid #ecc8af;
+}
+
+.dog-img {
+  border-bottom: 20px solid #ecc8af;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.dog-name {
+  text-align: center;
+}
