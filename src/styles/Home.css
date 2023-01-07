@@ -1,0 +1,40 @@
+.type-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: space-around;
+  margin-top: 50vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 4%;
+}
+
+.dog-icon, .cat-icon {
+  max-width: 20vw;
+  max-height: 8vh;
+  width: auto;
+  height: auto;
+}
+
+.type-button {
+  background-color: #c7d66d;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.type-button:hover {
+  background-color: #9eab56;
+  transform: scale(1.1);
+}
+
+.type-text {
+  display: none;
+}
+
+.type-button:hover .type-text{
+  display:block;
+}

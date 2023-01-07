@@ -1,25 +1,41 @@
 import { useState, useEffect } from 'react';
-import searchPet from '../services/searchPet';
+import { searchCat, searchDog } from '../services/searchPet';
 import PropTypes from 'prop-types';
 import PetContext from './PetContext';
 
 function PetProvider({ children }) {
   const [loading, setLoading] = useState(true);
-  const [pet, setPet] = useState([]);
+  const [dog, setDog] = useState([]);
+  const [cat, setCat] = useState([]);
+  const [isCat, setIsCat] = useState(false);
+  // const [meQuieres, setMeQuieres] = useState(false);
 
-  const fetchApi = async () => {
-      const result = await searchPet();
-      setPet(result);
+  const fetchDogApi = async () => {
+      const result = await searchDog();
+      setDog(result);
       setLoading(false);
   }
 
+  const fetchCatApi = async () => {
+    const result = await searchCat();
+    setCat(result);
+    setLoading(false);
+}
+
   useEffect(() => {
-    fetchApi();
+    fetchDogApi();
+    fetchCatApi();
   }, []);
 
   const info = {
-    pet,
-    setPet,
+    dog,
+    setDog,
+    cat,
+    setCat,
+    isCat,
+    setIsCat,
+    // meQuieres,
+    // setMeQuieres,
     loading,
     setLoading,
   };

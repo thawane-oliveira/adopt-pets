@@ -27,11 +27,12 @@
   box-shadow: 2px 2px 2px black;
   font-family: 'Coming Soon', cursive;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0.6vh;
   transition: 0.5s;
 }
 
 .about-button:hover, .donation-button:hover, .share-button:hover, .login-button:hover {
   background-color: #bec17b;
+  cursor: pointer;
 }
