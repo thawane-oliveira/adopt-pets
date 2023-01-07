@@ -4,7 +4,7 @@ function Header() {
 
   return (
       <header className="header-container">
-        <h1 className="page-title" data-testid="page-title">Adote um doguineo</h1>
+        <h1 className="page-title" data-testid="page-title">Adote um pet</h1>
         <button
           className="about-button"
           type="button"
@@ -23,7 +23,7 @@ function Header() {
             className="share-button"
             type="button"
           >
-            Divulgue um doguineo
+            Divulgue um pet
           </button>
 
           <button

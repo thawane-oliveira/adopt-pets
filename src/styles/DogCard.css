@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
 .dog-container {
   align-content: space-around;
   align-items: center;
@@ -8,18 +10,39 @@
 }
 
 .card-container {
-  border: 10px solid #ecc8af;
-  border-bottom: 80px solid #ecc8af;
+  border: 2vh solid whitesmoke;
+  border-bottom: 6vh solid whitesmoke;
+  box-shadow: 1px 1px 5px rgb(184, 170, 149);
+  transition: 1.5s;
+  background-color: whitesmoke;
 }
 
 .dog-img {
-  border-bottom: 20px solid #ecc8af;
-  max-width: 300px;
-  max-height: 300px;
-  width: auto;
-  height: auto;
+  border-bottom: 3vh solid whitesmoke;
+  height: 35vh;
+  width: 20vw;
+}
+
+.card-container:hover {
+  transform: scale(1.1);
 }
 
 .dog-name {
+  background-image: url('../images/washi-tape2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 4vh;
   text-align: center;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dog-p {
+  font-family: 'Coming Soon', cursive;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
 }

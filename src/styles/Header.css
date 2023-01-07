@@ -4,30 +4,34 @@
 
 .header-container {
   align-items: center;
-  background-image: url('./header-img.jpg');
+  background-image: url('../images/header.png');
   display: flex;
-  height: 15vh;
+  height: 13vh;
   justify-content: space-around;
   width: 100%;
 }
 
 .page-title {
-  color: #ecc8af;
-  font-family: 'Hind Siliguri', sans-serif;
-  font-size: 40px;
+  color: #b8c44a;
+  font-family: 'Coming Soon', cursive;
+  font-size: 60px;
   text-shadow: 2px 2px 2px black;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.5px;
 }
 
 .about-button, .donation-button, .share-button, .login-button {
-  background-color: #ecc8af;
+  background-color: #d5d887;
   border-radius: 6%;
   border-style: none;
   box-shadow: 2px 2px 2px black;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Coming Soon', cursive;
   font-size: 16px;
+  font-weight: 500;
+  padding: 0.6vh;
   transition: 0.5s;
 }
 
 .about-button:hover, .donation-button:hover, .share-button:hover, .login-button:hover {
-  background-color: #d2b29b;
+  background-color: #bec17b;
 }
