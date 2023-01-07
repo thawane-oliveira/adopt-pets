@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import PetContext from '../context/PetContext';
 import Loading from './Loading';
-import '../styles/DogCard.css';
+import '../styles/PetCard.css';
 import PetCard from './PetCard';
 
 function PetContainer() {
@@ -18,11 +18,11 @@ function PetContainer() {
   return (
   loading ? <Loading /> :  isCat ? 
   (
-    <div className='dog-container'>
+    <div className='pet-container'>
       {cat.map((it, index) => (<PetCard key={it} it={it} names={catNames[index]} alt='gatitchu' />))}
     </div>
   ) : (
-    <div className='dog-container'>
+    <div className='pet-container'>
       {dog.map((it, index) => (<PetCard key={it} it={it} names={dogNames[index]} alt='doggo' />))}
     </div>
   ))
