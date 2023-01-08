@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+.about-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* font-family: 'Coming Soon', cursive; */
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.about-text {
+  font-size: 1.2em;
+  height: 12vh;
+  text-align: justify;
+  width: 50vw;
+}
+
+.about-title, .about-values {
+  /* background-image: url(../images/washi-tape.png);
+  background-size:contain;
+  background-repeat: no-repeat; */
+  font-family: 'Coming Soon', cursive;
+}
+
+.about-list {
+  font-size: 1.2em;
+}
+
+.about-img {
+  max-width: 80vh;
+  max-height: 70vw;
+  width: auto;
+  height: auto;
+}

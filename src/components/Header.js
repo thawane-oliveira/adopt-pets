@@ -1,38 +1,39 @@
+import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 
 function Header() {
 
   return (
-      <header className="header-container">
-        <h1 className="page-title" data-testid="page-title">Adote um pet</h1>
-        <button
+    <header className="header-container">
+      <h1 className="page-title" data-testid="page-title">Adote um pet</h1>
+        <Link
+          to="/sobre"
           className="about-button"
-          type="button"
         >
           Quem somos
-        </button>
+        </Link>
 
-          <button
-            className="donation-button"
-            type="button"
-          >
-            Faça uma doação
-          </button>
+        <Link
+          to="/doe"
+          className="donation-button"
+        >
+          Faça uma doação
+        </Link>
 
-          <button
-            className="share-button"
-            type="button"
-          >
-            Divulgue um pet
-          </button>
+        <Link
+          to="/divulgue"
+          className="share-button"
+        >
+          Divulgue um pet
+        </Link>
 
-          <button
-            className="login-button"
-            type="button"
-          >
-            Entrar
-          </button>
-      </header>
+        <Link
+          to="/login"
+          className="login-button"
+        >
+          Entrar
+        </Link>
+    </header>
   );
 }
 

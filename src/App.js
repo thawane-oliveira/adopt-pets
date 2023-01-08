@@ -1,14 +1,17 @@
 import React from 'react';
 import '../src/App.css';
+import { Routes, Route } from "react-router-dom";
 import PetProvider from './context/PetProvider';
-// import Header from './components/Header';
-// import DogCard from './components/DogCard';
 import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
     <PetProvider>
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sobre" element={<AboutUs />} />
+      </Routes>
     </PetProvider>
   );
 }

@@ -1,4 +1,4 @@
-function PetForm() {
+function Donation() {
 
   return (
     <form>
@@ -16,4 +16,4 @@ function PetForm() {
   );
 }
 
-export default PetForm;
+export default Donation;
