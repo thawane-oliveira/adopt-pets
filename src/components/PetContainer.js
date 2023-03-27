@@ -7,9 +7,9 @@ import PetCard from './PetCard';
 function PetContainer() {
   const { cat, dog, loading, isCat } = useContext(PetContext);
 
-  const catNames = ['Speedwagon', 'Caesar', 'Kakyoin', 'Okuyasu', 'Bruno', 'Ermes', 'Gyro', 'Joshu', 'Yoshikage'];
+  const catNames = ['Speedwagon', 'Caesar', 'Kakyoin', 'Okuyasu', 'Bruno', 'Ermes', 'Gyro', 'Joshu', 'Dragona'];
 
-  const dogNames = ['Jonathan', 'Joseph', 'Jotaro', 'Josuke', 'Giorno', 'Jolyne', 'Johnny', 'Gappy', 'Jojo'];
+  const dogNames = ['Jonathan', 'Joseph', 'Jotaro', 'Josuke', 'Giorno', 'Jolyne', 'Johnny', 'Gappy', 'JoDio'];
 
   // if(loading) {
   //   return <Loading />
