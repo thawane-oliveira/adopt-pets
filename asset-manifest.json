@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/adopt-pets/static/css/main.686e37c4.css",
+    "main.js": "/adopt-pets/static/js/main.7267aaff.js",
+    "static/js/787.768fd665.chunk.js": "/adopt-pets/static/js/787.768fd665.chunk.js",
+    "static/media/pets-footer.png": "/adopt-pets/static/media/pets-footer.66910552de4f84141885.png",
+    "static/media/adopt-love.gif": "/adopt-pets/static/media/adopt-love.2431686a18bfbe2e85e7.gif",
+    "static/media/washi-tape2.png": "/adopt-pets/static/media/washi-tape2.4254aa6cbf1c8574dc7f.png",
+    "static/media/donate-to.png": "/adopt-pets/static/media/donate-to.8cda6e43a28890f76c0e.png",
+    "static/media/header.png": "/adopt-pets/static/media/header.316e09fe7addd0d2b1fa.png",
+    "static/media/donate.png": "/adopt-pets/static/media/donate.e05100132260b7421016.png",
+    "static/media/cat-icon.png": "/adopt-pets/static/media/cat-icon.4e6b76e5222d9a704150.png",
+    "static/media/dog-icon.png": "/adopt-pets/static/media/dog-icon.29e3e5c8d4700718191b.png",
+    "index.html": "/adopt-pets/index.html",
+    "main.686e37c4.css.map": "/adopt-pets/static/css/main.686e37c4.css.map",
+    "main.7267aaff.js.map": "/adopt-pets/static/js/main.7267aaff.js.map",
+    "787.768fd665.chunk.js.map": "/adopt-pets/static/js/787.768fd665.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.686e37c4.css",
+    "static/js/main.7267aaff.js"
+  ]
+}
