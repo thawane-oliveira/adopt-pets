@@ -4,6 +4,7 @@
   align-content: space-around;
   align-items: center;
   display: grid;
+  font-size: 22px;
   grid-template-columns: 1fr 1fr 1fr;
   height: 200vh;
   justify-items: center;
@@ -72,20 +73,20 @@
 
 .pet-p {
   font-family: 'Coming Soon', cursive;
-  font-size: 18px;
+  font-size: 0.9em;
   font-weight: 700;
   margin: 0;
 }
 
 .back-title {
   font-family: 'Coming Soon', cursive;
-  font-size: 22px;
+  font-size: 1em;
   text-align: center;
 }
 
 .back-p {
   font-family: 'Coming Soon', cursive;
-  font-size: 18px;
+  font-size: 0.8em;
   line-height: 4vh;
   text-align: center;
 }
