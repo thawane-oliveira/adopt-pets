@@ -4,7 +4,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  /* font-family: 'Coming Soon', cursive; */
   font-size: 16px;
   height: 100%;
   width: 100%;
@@ -18,9 +17,6 @@
 }
 
 .about-title, .about-values {
-  /* background-image: url(../images/washi-tape.png);
-  background-size:contain;
-  background-repeat: no-repeat; */
   font-family: 'Coming Soon', cursive;
 }
 
