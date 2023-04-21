@@ -4,7 +4,7 @@
   align-content: space-around;
   align-items: center;
   display: grid;
-  font-size: 22px;
+  font-size: 1em;
   grid-template-columns: 1fr 1fr 1fr;
   height: 200vh;
   justify-items: center;
@@ -13,18 +13,20 @@
 .pet-img {
   border-bottom: 3vh solid whitesmoke;
   height: 35vh;
-  width: 20vw;
+  max-height: 80%;
+  max-width: 100%;
+  width: 20vw; 
 }
 
 .card-container {
-  width: 20vw;
-  height: 40vh;
+  width: 60%;
+  height: 80%;
   perspective: 60vw;
 }
 
 .flipper {
   border: 2vh solid whitesmoke;
-  border-bottom: 6vh solid whitesmoke;
+  border-bottom: 5vh solid whitesmoke;
   box-shadow: 1px 1px 5px #b6b79b;
   background-color: whitesmoke;
   position: relative;
@@ -59,9 +61,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 4vh;
+  height: 12%;
   text-align: center;
-  width: 20vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,7 +71,7 @@
 
 .pet-p {
   font-family: 'Coming Soon', cursive;
-  font-size: 0.9em;
+  font-size: 1.2em;
   font-weight: 700;
   margin: 0;
 }

@@ -4,20 +4,27 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-size: 16px;
-  height: 100%;
+  font-size: 0.95em;
+  height: 70%;
+  max-height: 80%;
   width: 100%;
 }
 
 .about-text {
   font-size: 1.2em;
-  height: 12vh;
+  height: 13vh;
+  max-height: 100%;
+  max-width: 50%;
   text-align: justify;
   width: 50vw;
 }
 
 .about-title, .about-values {
   font-family: 'Coming Soon', cursive;
+}
+
+.about-values {
+  margin-top: 8vh;
 }
 
 .about-list {
