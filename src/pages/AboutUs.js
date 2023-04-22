@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import pets from '../images/pets-footer.png';
 import '../styles/AboutUs.css';
+import '../styles/mobile/MobileAbout.css';
 
 function AboutUs() {
 

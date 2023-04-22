@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import PetContext from '../context/PetContext';
 import Loading from './Loading';
 import '../styles/PetCard.css';
+import '../styles/mobile/MobilePetCard.css';
 import PetCard from './PetCard';
 
 function PetContainer() {

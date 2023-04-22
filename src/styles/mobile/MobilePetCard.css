@@ -1,3 +1,37 @@
 @media only screen and (max-width: 768px) {
+  .pet-container {
+    align-content: space-around;
+    align-items: center;
+    display: grid;
+    font-size: 1em;
+    grid-template-columns: 1fr;
+    height: 50%;
+    justify-items: center;
+  }
+  
+  .pet-img {
+    border-bottom: 3vh solid whitesmoke;
+    height: 35vh;
+    max-height: 80%;
+    max-width: 100%;
+    width: 80vw; 
+  }
+  
+  .card-container {
+    height: 95%;
+    perspective: 60vw;
+    width: 65%;
+  }
 
+  .back-p {
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .back-img {
+    height: 15vh;
+    max-height: 80%;
+    max-width: 100%;
+    width: 30vw; 
+  }
 }

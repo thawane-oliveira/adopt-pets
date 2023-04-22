@@ -21,11 +21,12 @@
 
 .about-title, .about-values {
   font-family: 'Coming Soon', cursive;
+  font-size: 2em;
 }
 
-.about-values {
+/* .about-values {
   margin-top: 8vh;
-}
+} */
 
 .about-list {
   font-size: 1.2em;
