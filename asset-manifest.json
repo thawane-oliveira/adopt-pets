@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adopt-pets/static/css/main.1a351349.css",
+    "main.css": "/adopt-pets/static/css/main.fdd5a844.css",
     "main.js": "/adopt-pets/static/js/main.5adb312e.js",
     "static/js/787.768fd665.chunk.js": "/adopt-pets/static/js/787.768fd665.chunk.js",
     "static/media/pets-footer.png": "/adopt-pets/static/media/pets-footer.66910552de4f84141885.png",
@@ -14,12 +14,12 @@
     "static/media/cat-icon.png": "/adopt-pets/static/media/cat-icon.4e6b76e5222d9a704150.png",
     "static/media/dog-icon.png": "/adopt-pets/static/media/dog-icon.29e3e5c8d4700718191b.png",
     "index.html": "/adopt-pets/index.html",
-    "main.1a351349.css.map": "/adopt-pets/static/css/main.1a351349.css.map",
+    "main.fdd5a844.css.map": "/adopt-pets/static/css/main.fdd5a844.css.map",
     "main.5adb312e.js.map": "/adopt-pets/static/js/main.5adb312e.js.map",
     "787.768fd665.chunk.js.map": "/adopt-pets/static/js/787.768fd665.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a351349.css",
+    "static/css/main.fdd5a844.css",
     "static/js/main.5adb312e.js"
   ]
 }
