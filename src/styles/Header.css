@@ -3,11 +3,11 @@
 .header-container {
   align-items: center;
   background-image: url('../images/header.png');
-  display: flex;
-  font-size: 0.8em;
+  /* display: flex; */
+  font-size: 1em;
   height: 13vh;
   max-height: 5%;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   width: 100%;
 }
 
@@ -15,12 +15,13 @@
   color: #b8c44a;
   font-family: 'Coming Soon', cursive;
   font-size: 4em;
+  font-weight: 600;
   text-shadow: 2px 2px 2px black;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 0.5px;
 }
 
-.about-button, .donation-button, .share-button, .login-button {
+:link {
   background-color: #d5d887;
   border-radius: 6%;
   border-style: none;
@@ -34,7 +35,7 @@
   transition: 0.5s;
 }
 
-.about-button:hover, .donation-button:hover, .share-button:hover, .login-button:hover {
+:link:hover {
   background-color: #bec17b;
   cursor: pointer;
 }
